@@ -276,59 +276,34 @@ The following commercial platforms cover various parts of robot fleet management
 
 
 
-| Platform                                                   | Primary Focus          | Typical Strength                                            |
-
-| ---------------------------------------------------------- | ---------------------- | ----------------------------------------------------------- |
-
-| [Formant](https://formant.io/)                             | Robotics operations    | Fleet orchestration, observability, teleoperation           |
-
-| [InOrbit](https://www.inorbit.ai/)                         | RobOps                 | Robot operations and orchestration                          |
-
-| [Freedom Robotics](https://freedomrobotics.ai/)            | Fleet management       | Device/fleet/deployment management                          |
-
-| [Rocos](https://www.rocos.io/)                             | Robotics cloud         | Fleet operations and robot management                       |
-
-| [SVT Robotics](https://svtrobotics.com/)                   | Industrial robotics    | Robot deployment/interoperability                           |
-
-| [Waypoint Robotics](https://waypointrobotics.com/)         | AMRs                   | Autonomous mobile robots                                    |
-
-| [Brain Corp](https://www.braincorp.com/)                   | Autonomous robots      | BrainOS + commercial fleet ecosystem                        |
-
-| [NVIDIA](https://www.nvidia.com/)                          | Robotics platform      | Isaac, Mission Control, simulation and AI                   |
-
-| [OTTO Motors](https://ottomotors.com/)                     | Industrial AMRs        | Warehouse/manufacturing automation                          |
-
-| [Viam](https://www.viam.com/)                              | Robotics platform      | Hardware abstraction, deployment, data and fleet operations |
-
-| [Locus Robotics](https://locusrobotics.com/)               | Warehouse robotics     | AMR orchestration                                           |
-
-| [6 River Systems](https://6river.com/)                     | Warehouse robotics     | Collaborative AMRs                                          |
-
-| [MiR](https://mobile-industrial-robots.com/)               | Industrial AMRs        | Fleet management                                            |
-
-| [KUKA](https://www.kuka.com/)                              | Industrial robotics    | Robot control and automation                                |
-
-| [ABB Robotics](https://new.abb.com/products/robotics)      | Industrial robotics    | Robot fleet / industrial automation                         |
-
-| [FANUC](https://www.fanucamerica.com/)                     | Industrial robotics    | Factory robotics                                            |
-
-| [Universal Robots](https://www.universal-robots.com/)      | Collaborative robots   | Robot automation ecosystem                                  |
-
-| [Dusty Robotics](https://www.dustyrobotics.com/)           | Construction robotics  | Autonomous layout robots                                    |
-
-| [Canvas](https://www.canvas.build/)                        | Construction robotics  | Autonomous construction robots                              |
-
-| [PickNik](https://picknik.ai/)                             | Robot motion           | ROS / MoveIt-based robotics                                 |
-
-| [Intrinsic](https://intrinsic.ai/)                         | Industrial robotics    | Robotics software platform                                  |
-
-| [NVIDIA Isaac](https://developer.nvidia.com/isaac)         | Robotics AI            | Simulation, autonomy and accelerated computing              |
-
-| [AWS RoboMaker](https://aws.amazon.com/robomaker/)         | Robotics cloud tooling | Cloud robotics development                                  |
-
-| [Azure Robotics](https://azure.microsoft.com/)             | Cloud robotics         | Cloud/IoT integration                                       |
-
-| [Google Cloud Robotics](https://cloud.google.com/robotics) | Cloud robotics         | Robotics cloud infrastructure                               |
+| Platform | Primary Focus | Typical Strength | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Formant](https://formant.io/)** | Robotics operations | Fleet orchestration, observability, teleoperation | Starts at **$250 / robot / month** (teleoperation & real-time telemetry streaming) | **Free Forever Tier** (Formant Studio): 1 user seat with unlimited connected robots for live monitoring, teleoperation, and SSH access; **30-day trial** for enterprise fleets. |
+| **[InOrbit](https://www.inorbit.ai/)** | RobOps | Robot operations and orchestration | Starts at **$5,000 / year** (Developer Edition flat annual fee for up to 8 robots; or ~$100 / robot / month) | **Free Forever Edition**: Unlimited robots for core fleet status, health telemetry, and incident tracking (no credit card required). |
+| **[Freedom Robotics](https://freedomrobotics.ai/)** | Fleet management | Device/fleet/deployment management | Starts at **$59 / robot / month** (Standard plan for real-time telemetry, remote SSH, and alerting) | **14-day free trial** with full platform capabilities for up to 3 robots (includes video streaming and control; no credit card required). |
+| **[Rocos (DroneDeploy Ground)](https://www.rocos.io/)** | Robotics cloud | Fleet operations and robot management | Starts at **$349 / month** ($4,188 billed annually for Core Ground Robotics & Reality Capture) | **14-day free trial** with full access (up to 1 robot/drone integration and 500 image captures/maps; no credit card required). |
+| **[SVT Robotics](https://svtrobotics.com/)** | Industrial robotics | Robot deployment/interoperability | Starts at **$25,000 / year** (~$2,083 / month base SOFTBOT platform connector subscription) | **30-day sandbox pilot trial** with access to AppDirectory virtual connectors, mock robot endpoints, and simulated WMS workflows. |
+| **[Waypoint Robotics](https://waypointrobotics.com/)** | AMRs | Autonomous mobile robots | Starts at **$2,500 / robot / month** (RaaS lease covering Vector AMR hardware, Dispatcher software, and maintenance) | **30-day on-site pilot evaluation** including 1 Vector AMR unit, virtual facility mapping, and Dispatcher software setup. |
+| **[Brain Corp](https://www.braincorp.com/)** | Autonomous robots | BrainOS + commercial fleet ecosystem | Starts at **$499 / robot / month** (BrainOS commercial software & fleet telemetry license) | **30-day proof-of-concept trial** per facility site (includes pre-mapped routes, cloud analytics portal, and operator training). |
+| **[NVIDIA](https://www.nvidia.com/)** | Robotics platform | Isaac, Mission Control, simulation and AI | **$0** (Free core software download); Enterprise Support starts at **$4,500 / GPU / year** (or $1.00 / GPU-hr on CSPs) | **Free Forever**: Isaac Sim, Isaac ROS, and Omniverse core platform are free for local development; **90-day free trial** via NVIDIA LaunchPad. |
+| **[OTTO Motors](https://ottomotors.com/)** | Industrial AMRs | Warehouse/manufacturing automation | Starts at **$2,500 / robot / year** (OTTO Fleet Manager software license; or RaaS bundled lease from ~$2,800 / robot / month) | **30-day pilot sandbox evaluation** with virtual OTTO Fleet Manager simulator, fleet route builder, and throughput benchmark reports. |
+| **[Viam](https://www.viam.com/)** | Robotics platform | Hardware abstraction, deployment, data and fleet operations | **$5 / month base minimum threshold**; then $0.25 / GB / month data management, $2.50 / GB hot storage, $0.00125 / sec compute | **Free Forever Plan**: First **$5 / month of cloud usage free forever** (unlimited connected machines, local orchestration, and WebRTC streaming; no credit card required). |
+| **[Locus Robotics](https://locusrobotics.com/)** | Warehouse robotics | AMR orchestration | Starts at **$1,200 / robot / month** (RaaS subscription covering LocusBot AMR, LocusONE cloud orchestration, and maintenance) | **30-day pilot proof-of-concept program** (includes multi-bot simulation, facility throughput modeling, and on-site zone testing). |
+| **[6 River Systems](https://6river.com/)** | Warehouse robotics | Collaborative AMRs | Starts at **$1,500 / robot / month** (RaaS lease covering Chuck AMR, fleet management software, and 24/7 technical support) | **30-day proof-of-concept trial** including 2 Chuck AMRs, cart mapping, WMS test integration, and picking productivity analysis. |
+| **[MiR](https://mobile-industrial-robots.com/)** | Industrial AMRs | Fleet management | Starts at **$3,500 one-time base license** for MiR Fleet software (or MiR Insights cloud analytics at **$150 / robot / month**) | **30-day free evaluation license** for MiR Fleet server software (full features up to 100 AMRs in simulation/staging mode). |
+| **[KUKA](https://www.kuka.com/)** | Industrial robotics | Robot control and automation | Starts at **€2,400 / year (~$2,600 / year)** for KUKA.Sim modular license (or KUKA Connect Plus at **€35 / robot / month**) | **Free Forever Plan** (KUKA Connect Lite): Basic asset info and status monitoring for registered KUKA robots; **30-day full-feature trial** for KUKA.Sim. |
+| **[ABB Robotics](https://new.abb.com/products/robotics)** | Industrial robotics | Robot fleet / industrial automation | Starts at **$600 / robot / year (~$50 / month)** for ABB Ability Connected Services (or RobotStudio Premium at **$1,500 / year**) | **Free Forever Plan** (RobotStudio Basic): Essential 3D CAD viewer and basic simulation; **30-day free trial** for RobotStudio Premium. |
+| **[FANUC](https://www.fanucamerica.com/)** | Industrial robotics | Factory robotics | Starts at **$1,200 / robot / year (~$100 / month)** for FANUC ZDT cloud predictive maintenance subscription | **30-day free evaluation trial** for FIELD system developer sandbox and FANUC RoboGuide simulation upon distributor request. |
+| **[Universal Robots](https://www.universal-robots.com/)** | Collaborative robots | Robot automation ecosystem | Starts at **$1,200 / robot / year (~$100 / month)** for UR Care / UR Connect cloud monitoring & remote diagnostics | **Free Forever Plan**: UR Studio browser simulator and URSim offline robot simulator free forever; **30-day evaluation trial** for UR Connect. |
+| **[Dusty Robotics](https://dustyrobotics.com/)** | Construction robotics | Autonomous layout robots | Starts at **$3,000 / month** ($1,250 / day lease rate) for FieldPrint Platform software and robot hardware subscription | **1-day on-site layout benchmark demo** + **14-day CAD/BIM model conversion trial** on the FieldPrint web portal. |
+| **[Canvas](https://www.canvas.build/)** | Construction robotics | Autonomous construction robots | Starts at **$5,000 / month** (RaaS lease for 1200CX autonomous machine + software; or ~$0.65 / sq ft subcontracting rate) | **1-day on-site jobsite demonstration** and single-room mock-up finishing evaluation before contract execution. |
+| **[PickNik](https://picknik.ai/)** | Robot motion | ROS / MoveIt-based robotics | Starts at **$1,000 / seat / month (~$10,000 / year)** for MoveIt Pro commercial developer license | **Free Forever Plan**: Free MoveIt Pro Academic License for universities/researchers + MoveIt OSS core; **30-day free trial** for enterprise evaluation. |
+| **[Intrinsic](https://intrinsic.ai/)** | Industrial robotics | Robotics software platform | Starts at **$2,000 / developer / month** (enterprise Flowstate studio seat subscription for production engineering teams) | **60-day gated trusted-tester developer preview** (includes cloud simulation credits and access to open-source Python/C++ Skill SDK). |
+| **[NVIDIA Isaac](https://developer.nvidia.com/isaac)** | Robotics AI | Simulation, autonomy and accelerated computing | **$0** (Free core Isaac Sim/ROS developer download); Cloud deployment via NVIDIA AI Enterprise starts at **$4,500 / GPU / year** | **Free Forever**: Isaac Sim, Isaac Lab, and Isaac ROS libraries are completely free for local GPU development; **90-day free cloud trial** via LaunchPad. |
+| **[AWS RoboMaker](https://aws.amazon.com/robomaker/)** | Robotics cloud tooling | Cloud robotics development | **$0.40 per Simulation Unit (SU) hour** (1 SU = 1 vCPU + 2 GB RAM; ~$290 / month for 1 dedicated continuous worker) | **AWS Free Tier (12 Months)**: **25 Simulation Unit (SU) hours per month free** for 12 months (Note: transitioning to AWS IoT Greengrass & Batch). |
+| **[Azure Robotics](https://azure.microsoft.com/)** | Cloud robotics | Cloud/IoT integration | Starts at **$10 / month** (Azure IoT Hub Basic B1, 400k msgs/day) or **$0.75 / vCPU / month** for Azure Arc IoT Operations | **Free Forever Tier** (IoT Hub F1): **8,000 messages / day free forever** (up to 500 connected devices) + **30-day trial with $200 Azure credits**. |
+| **[Google Cloud Robotics](https://cloud.google.com/robotics)** | Cloud robotics | Robotics cloud infrastructure | Starts at **$0.10 / cluster / hour (~$73 / month)** for GKE cluster management fee + compute node resources (e2-medium from ~$25 / month) | **Free Forever Tier**: **1 free zonal GKE cluster per billing account forever** ($73/mo fee waived) + **$300 free credits across 90-day Google Cloud trial**. |
+| **[Foxglove](https://foxglove.dev/)** | Robotics observability | Visualization, telemetry indexing, RobOps data platform | Starts at **$18 / user / month** ($15 / user / month billed annually for Team tier) | **Free Forever Plan**: 1 user, up to 10 GB cloud storage, unlimited local visualization, web and desktop client (no credit card required). |
 
 
 
