@@ -1,16 +1,29 @@
-# Awesome-Robotics-Fleet-Management
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Robotics Fleet Management & RobOps Banner" width="100%" />
+</p>
 
-## Top Robotics Fleet Management Platforms — README.md
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Fleet-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Robotics-Fleet-Management?style=flat-square&logo=github&color=gold" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Fleet-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Robotics-Fleet-Management?style=flat-square&logo=github&color=blue" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Fleet-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Robotics-Fleet-Management?style=flat-square&color=green" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Fleet-Management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Robotics-Fleet-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+# 🤖 Awesome Robotics Fleet Management & RobOps 🚀
 
-A comprehensive guide to **robot fleet management, RobOps, robot orchestration, fleet monitoring, telemetry, remote operations, mission management, deployment, observability, interoperability, and open-source alternatives** to platforms such as **Formant, InOrbit, Freedom Robotics, Rocos, SVT Robotics, Waypoint Robotics, Brain Corp, NVIDIA Mission Control, OTTO Motors, and Viam**.
+> **A curated, production-grade directory of the best Robotics Fleet Management platforms, RobOps infrastructure, Multi-Robot Orchestration frameworks, AMR/AGV Dispatchers, Teleoperation suites, VDA 5050 connectors, and Open-Source building blocks.**
 
+Robotics fleet management is the mission-critical software layer used to **deploy, monitor, control, coordinate, diagnose, update, and optimize autonomous mobile robots (AMRs), automated guided vehicles (AGVs), and industrial manipulators**. 
 
+Whether you are evaluating commercial **hosted SaaS RobOps platforms** (such as Formant, InOrbit, Viam, or Foxglove) or seeking battle-tested **open-source frameworks (Open-RMF, ROS 2, Zenoh, Nav2, VDA 5050)** to self-host an enterprise-grade fleet control tower, this repository indexes the leading solutions with transparent pricing, free tier limits, and GitHub statistics.
 
-> **Primary emphasis:** Open-source robotics fleet-management frameworks, robot orchestration platforms, middleware, fleet adapters, observability systems, deployment infrastructure, simulation platforms, and composable building blocks that can be self-hosted to create a commercial-grade **Robotics Fleet Management / RobOps platform**.
-
-
+> 🎯 **Primary Emphasis:** Open-source robotics fleet-management frameworks, robot orchestration platforms, middleware, fleet adapters, observability systems, deployment infrastructure, simulation platforms, and composable building blocks that can be self-hosted to create a commercial-grade **Robotics Fleet Management / RobOps platform**.
 
 ---
 
@@ -20,13 +33,13 @@ A comprehensive guide to **robot fleet management, RobOps, robot orchestration, 
 
 
 
-* [What Is Robotics Fleet Management?](#what-is-robotics-fleet-management)
+* [🤖 What Is Robotics Fleet Management?](#-what-is-robotics-fleet-management)
 
-* [SaaS / Hosted Platforms](#saas--hosted-platforms)
+* [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
 
-* [Open-Source](#open-source)
+* [💻 Open-Source Ecosystem](#open-source)
 
-
+  * [Open-Source GitHub Projects](#-open-source-github-projects)
 
   * [Full Fleet Management / Multi-Robot Orchestration](#full-fleet-management--multi-robot-orchestration)
 
@@ -126,9 +139,11 @@ A comprehensive guide to **robot fleet management, RobOps, robot orchestration, 
 
 * [Conclusion](#conclusion)
 
-* [Contributing](#contributing)
+* [🤝 Contributing](#-contributing)
 
-* [Disclaimer](#disclaimer)
+* [⚠️ Disclaimer](#️-disclaimer)
+
+* [📈 Star History](#-star-history)
 
 
 
@@ -136,7 +151,7 @@ A comprehensive guide to **robot fleet management, RobOps, robot orchestration, 
 
 
 
-# What Is Robotics Fleet Management?
+# 🤖 What Is Robotics Fleet Management?
 
 
 
@@ -268,42 +283,42 @@ A simplified architecture is:
 
 
 
-# SaaS / Hosted Platforms
-
-
+# 🏢 SaaS & Hosted Platforms
 
 The following commercial platforms cover various parts of robot fleet management, RobOps, robot orchestration, autonomy, device management, industrial interoperability, and AMR operations.
 
+> 💡 **Market Size & Industry Landscape**: The global robotics fleet management and RobOps software market is estimated at **$2.5 Billion – $4.2 Billion USD in 2026** (projected to reach **$11.8 Billion+ by 2030** at an ~24.5% CAGR, accelerated by logistics AMRs, industrial automation, and physical AI). The sector is **moderately-to-highly fragmented** across industrial automation giants, warehouse AMR specialists, and hardware-agnostic cloud RobOps platforms, rather than a winner-take-all monopoly.
 
+*Commercial platforms sorted in descending order by company scale (Market Cap / Valuation / Revenue):*
 
-| Platform | Primary Focus | Typical Strength | Starting Pricing | Free Tier / Free Trial Limits |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Formant](https://formant.io/)** | Robotics operations | Fleet orchestration, observability, teleoperation | Starts at **$250 / robot / month** (teleoperation & real-time telemetry streaming) | **Free Forever Tier** (Formant Studio): 1 user seat with unlimited connected robots for live monitoring, teleoperation, and SSH access; **30-day trial** for enterprise fleets. |
-| **[InOrbit](https://www.inorbit.ai/)** | RobOps | Robot operations and orchestration | Starts at **$5,000 / year** (Developer Edition flat annual fee for up to 8 robots; or ~$100 / robot / month) | **Free Forever Edition**: Unlimited robots for core fleet status, health telemetry, and incident tracking (no credit card required). |
-| **[Freedom Robotics](https://freedomrobotics.ai/)** | Fleet management | Device/fleet/deployment management | Starts at **$59 / robot / month** (Standard plan for real-time telemetry, remote SSH, and alerting) | **14-day free trial** with full platform capabilities for up to 3 robots (includes video streaming and control; no credit card required). |
-| **[Rocos (DroneDeploy Ground)](https://www.rocos.io/)** | Robotics cloud | Fleet operations and robot management | Starts at **$349 / month** ($4,188 billed annually for Core Ground Robotics & Reality Capture) | **14-day free trial** with full access (up to 1 robot/drone integration and 500 image captures/maps; no credit card required). |
-| **[SVT Robotics](https://svtrobotics.com/)** | Industrial robotics | Robot deployment/interoperability | Starts at **$25,000 / year** (~$2,083 / month base SOFTBOT platform connector subscription) | **30-day sandbox pilot trial** with access to AppDirectory virtual connectors, mock robot endpoints, and simulated WMS workflows. |
-| **[Waypoint Robotics](https://waypointrobotics.com/)** | AMRs | Autonomous mobile robots | Starts at **$2,500 / robot / month** (RaaS lease covering Vector AMR hardware, Dispatcher software, and maintenance) | **30-day on-site pilot evaluation** including 1 Vector AMR unit, virtual facility mapping, and Dispatcher software setup. |
-| **[Brain Corp](https://www.braincorp.com/)** | Autonomous robots | BrainOS + commercial fleet ecosystem | Starts at **$499 / robot / month** (BrainOS commercial software & fleet telemetry license) | **30-day proof-of-concept trial** per facility site (includes pre-mapped routes, cloud analytics portal, and operator training). |
-| **[NVIDIA](https://www.nvidia.com/)** | Robotics platform | Isaac, Mission Control, simulation and AI | **$0** (Free core software download); Enterprise Support starts at **$4,500 / GPU / year** (or $1.00 / GPU-hr on CSPs) | **Free Forever**: Isaac Sim, Isaac ROS, and Omniverse core platform are free for local development; **90-day free trial** via NVIDIA LaunchPad. |
-| **[OTTO Motors](https://ottomotors.com/)** | Industrial AMRs | Warehouse/manufacturing automation | Starts at **$2,500 / robot / year** (OTTO Fleet Manager software license; or RaaS bundled lease from ~$2,800 / robot / month) | **30-day pilot sandbox evaluation** with virtual OTTO Fleet Manager simulator, fleet route builder, and throughput benchmark reports. |
-| **[Viam](https://www.viam.com/)** | Robotics platform | Hardware abstraction, deployment, data and fleet operations | **$5 / month base minimum threshold**; then $0.25 / GB / month data management, $2.50 / GB hot storage, $0.00125 / sec compute | **Free Forever Plan**: First **$5 / month of cloud usage free forever** (unlimited connected machines, local orchestration, and WebRTC streaming; no credit card required). |
-| **[Locus Robotics](https://locusrobotics.com/)** | Warehouse robotics | AMR orchestration | Starts at **$1,200 / robot / month** (RaaS subscription covering LocusBot AMR, LocusONE cloud orchestration, and maintenance) | **30-day pilot proof-of-concept program** (includes multi-bot simulation, facility throughput modeling, and on-site zone testing). |
-| **[6 River Systems](https://6river.com/)** | Warehouse robotics | Collaborative AMRs | Starts at **$1,500 / robot / month** (RaaS lease covering Chuck AMR, fleet management software, and 24/7 technical support) | **30-day proof-of-concept trial** including 2 Chuck AMRs, cart mapping, WMS test integration, and picking productivity analysis. |
-| **[MiR](https://mobile-industrial-robots.com/)** | Industrial AMRs | Fleet management | Starts at **$3,500 one-time base license** for MiR Fleet software (or MiR Insights cloud analytics at **$150 / robot / month**) | **30-day free evaluation license** for MiR Fleet server software (full features up to 100 AMRs in simulation/staging mode). |
-| **[KUKA](https://www.kuka.com/)** | Industrial robotics | Robot control and automation | Starts at **€2,400 / year (~$2,600 / year)** for KUKA.Sim modular license (or KUKA Connect Plus at **€35 / robot / month**) | **Free Forever Plan** (KUKA Connect Lite): Basic asset info and status monitoring for registered KUKA robots; **30-day full-feature trial** for KUKA.Sim. |
-| **[ABB Robotics](https://new.abb.com/products/robotics)** | Industrial robotics | Robot fleet / industrial automation | Starts at **$600 / robot / year (~$50 / month)** for ABB Ability Connected Services (or RobotStudio Premium at **$1,500 / year**) | **Free Forever Plan** (RobotStudio Basic): Essential 3D CAD viewer and basic simulation; **30-day free trial** for RobotStudio Premium. |
-| **[FANUC](https://www.fanucamerica.com/)** | Industrial robotics | Factory robotics | Starts at **$1,200 / robot / year (~$100 / month)** for FANUC ZDT cloud predictive maintenance subscription | **30-day free evaluation trial** for FIELD system developer sandbox and FANUC RoboGuide simulation upon distributor request. |
-| **[Universal Robots](https://www.universal-robots.com/)** | Collaborative robots | Robot automation ecosystem | Starts at **$1,200 / robot / year (~$100 / month)** for UR Care / UR Connect cloud monitoring & remote diagnostics | **Free Forever Plan**: UR Studio browser simulator and URSim offline robot simulator free forever; **30-day evaluation trial** for UR Connect. |
-| **[Dusty Robotics](https://dustyrobotics.com/)** | Construction robotics | Autonomous layout robots | Starts at **$3,000 / month** ($1,250 / day lease rate) for FieldPrint Platform software and robot hardware subscription | **1-day on-site layout benchmark demo** + **14-day CAD/BIM model conversion trial** on the FieldPrint web portal. |
-| **[Canvas](https://www.canvas.build/)** | Construction robotics | Autonomous construction robots | Starts at **$5,000 / month** (RaaS lease for 1200CX autonomous machine + software; or ~$0.65 / sq ft subcontracting rate) | **1-day on-site jobsite demonstration** and single-room mock-up finishing evaluation before contract execution. |
-| **[PickNik](https://picknik.ai/)** | Robot motion | ROS / MoveIt-based robotics | Starts at **$1,000 / seat / month (~$10,000 / year)** for MoveIt Pro commercial developer license | **Free Forever Plan**: Free MoveIt Pro Academic License for universities/researchers + MoveIt OSS core; **30-day free trial** for enterprise evaluation. |
-| **[Intrinsic](https://intrinsic.ai/)** | Industrial robotics | Robotics software platform | Starts at **$2,000 / developer / month** (enterprise Flowstate studio seat subscription for production engineering teams) | **60-day gated trusted-tester developer preview** (includes cloud simulation credits and access to open-source Python/C++ Skill SDK). |
-| **[NVIDIA Isaac](https://developer.nvidia.com/isaac)** | Robotics AI | Simulation, autonomy and accelerated computing | **$0** (Free core Isaac Sim/ROS developer download); Cloud deployment via NVIDIA AI Enterprise starts at **$4,500 / GPU / year** | **Free Forever**: Isaac Sim, Isaac Lab, and Isaac ROS libraries are completely free for local GPU development; **90-day free cloud trial** via LaunchPad. |
-| **[AWS RoboMaker](https://aws.amazon.com/robomaker/)** | Robotics cloud tooling | Cloud robotics development | **$0.40 per Simulation Unit (SU) hour** (1 SU = 1 vCPU + 2 GB RAM; ~$290 / month for 1 dedicated continuous worker) | **AWS Free Tier (12 Months)**: **25 Simulation Unit (SU) hours per month free** for 12 months (Note: transitioning to AWS IoT Greengrass & Batch). |
-| **[Azure Robotics](https://azure.microsoft.com/)** | Cloud robotics | Cloud/IoT integration | Starts at **$10 / month** (Azure IoT Hub Basic B1, 400k msgs/day) or **$0.75 / vCPU / month** for Azure Arc IoT Operations | **Free Forever Tier** (IoT Hub F1): **8,000 messages / day free forever** (up to 500 connected devices) + **30-day trial with $200 Azure credits**. |
-| **[Google Cloud Robotics](https://cloud.google.com/robotics)** | Cloud robotics | Robotics cloud infrastructure | Starts at **$0.10 / cluster / hour (~$73 / month)** for GKE cluster management fee + compute node resources (e2-medium from ~$25 / month) | **Free Forever Tier**: **1 free zonal GKE cluster per billing account forever** ($73/mo fee waived) + **$300 free credits across 90-day Google Cloud trial**. |
-| **[Foxglove](https://foxglove.dev/)** | Robotics observability | Visualization, telemetry indexing, RobOps data platform | Starts at **$18 / user / month** ($15 / user / month billed annually for Team tier) | **Free Forever Plan**: 1 user, up to 10 GB cloud storage, unlimited local visualization, web and desktop client (no credit card required). |
+| 🏷️ Platform | 🏢 Company Scale (Valuation / Revenue) | 📝 Primary Focus | 🛠️ Typical Strength | 💵 Starting Pricing | 🎁 Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Azure Robotics](https://azure.microsoft.com/)** | **~$3.1T Market Cap**<br>~$245B ARR *(NASDAQ: MSFT)* | Cloud robotics | Cloud/IoT integration, Azure IoT Operations, edge device management | Starts at **$10 / month** (Azure IoT Hub Basic B1, 400k msgs/day) or **$0.75 / vCPU / month** for Azure Arc IoT Operations | **Free Forever Tier** (IoT Hub F1): **8,000 messages / day free forever** (up to 500 connected devices) + **30-day trial with $200 Azure credits**. |
+| **[NVIDIA](https://www.nvidia.com/)** | **~$3.0T Market Cap**<br>~$120B ARR *(NASDAQ: NVDA)* | Robotics platform | Isaac, Mission Control, accelerated computing, synthetic data simulation | **$0** (Free core software download); Enterprise Support starts at **$4,500 / GPU / year** (or $1.00 / GPU-hr on CSPs) | **Free Forever**: Isaac Sim, Isaac ROS, and Omniverse core platform are free for local development; **90-day free trial** via NVIDIA LaunchPad. |
+| **[NVIDIA Isaac](https://developer.nvidia.com/isaac)** | **~$3.0T Market Cap**<br>~$120B ARR *(NASDAQ: NVDA)* | Robotics AI | Simulation, autonomy, accelerated computing, Isaac ROS GEMs, Isaac Perceptor | **$0** (Free core Isaac Sim/ROS developer download); Cloud deployment via NVIDIA AI Enterprise starts at **$4,500 / GPU / year** | **Free Forever**: Isaac Sim, Isaac Lab, and Isaac ROS libraries are completely free for local GPU development; **90-day free cloud trial** via LaunchPad. |
+| **[Google Cloud Robotics](https://cloud.google.com/robotics)** | **~$2.2T Market Cap**<br>~$350B ARR *(NASDAQ: GOOGL)* | Cloud robotics | Robotics cloud infrastructure, Cloud Robotics Core (Kubernetes/GKE), Gemini AI | Starts at **$0.10 / cluster / hour (~$73 / month)** for GKE cluster management fee + compute node resources (e2-medium from ~$25 / month) | **Free Forever Tier**: **1 free zonal GKE cluster per billing account forever** ($73/mo fee waived) + **$300 free credits across 90-day Google Cloud trial**. |
+| **[Intrinsic](https://intrinsic.ai/)** | **~$2.2T Parent Market Cap**<br>*(Alphabet Other Bets)* | Industrial robotics | Robotics software platform, Flowstate developer studio, AI perception pipelines | Starts at **$2,000 / developer / month** (enterprise Flowstate studio seat subscription for production engineering teams) | **60-day gated trusted-tester developer preview** (includes cloud simulation credits and access to open-source Python/C++ Skill SDK). |
+| **[AWS RoboMaker](https://aws.amazon.com/robomaker/)** | **~$2.0T Market Cap**<br>~$600B ARR *(NASDAQ: AMZN)* | Cloud robotics tooling | Cloud robotics development, cloud-scale simulation, CI/CD automated regression | **$0.40 per Simulation Unit (SU) hour** (1 SU = 1 vCPU + 2 GB RAM; ~$290 / month for 1 dedicated continuous worker) | **AWS Free Tier (12 Months)**: **25 Simulation Unit (SU) hours per month free** for 12 months (Note: transitioning to AWS IoT Greengrass & Batch). |
+| **[ABB Robotics](https://new.abb.com/products/robotics)** | **~$105B Market Cap**<br>~$32B Revenue *(SIX: ABBN)* | Industrial robotics | Robot fleet / industrial automation, ABB Ability Connected Services, RobotStudio | Starts at **$600 / robot / year (~$50 / month)** for ABB Ability Connected Services (or RobotStudio Premium at **$1,500 / year**) | **Free Forever Plan** (RobotStudio Basic): Essential 3D CAD viewer and basic simulation; **30-day free trial** for RobotStudio Premium. |
+| **[KUKA](https://www.kuka.com/)** | **~$70B Parent Market Cap**<br>~$4.2B Revenue *(Midea Group)* | Industrial robotics | Robot control and automation, KUKA Connect analytics, KUKA.Sim workcell | Starts at **€2,400 / year (~$2,600 / year)** for KUKA.Sim modular license (or KUKA Connect Plus at **€35 / robot / month**) | **Free Forever Plan** (KUKA Connect Lite): Basic asset info and status monitoring for registered KUKA robots; **30-day full-feature trial** for KUKA.Sim. |
+| **[OTTO Motors](https://ottomotors.com/)** | **~$30B Parent Market Cap**<br>~$8.5B Revenue *(Rockwell Automation)* | Industrial AMRs | Warehouse/manufacturing automation, OTTO Fleet Manager, VDA 5050 compliance | Starts at **$2,500 / robot / year** (OTTO Fleet Manager software license; or RaaS bundled lease from ~$2,800 / robot / month) | **30-day pilot sandbox evaluation** with virtual OTTO Fleet Manager simulator, fleet route builder, and throughput benchmark reports. |
+| **[FANUC](https://www.fanucamerica.com/)** | **~$28B Market Cap**<br>~$5.5B Revenue *(TYO: 6954)* | Industrial robotics | Factory robotics, FANUC ZDT (Zero Down Time) predictive maintenance, FIELD system | Starts at **$1,200 / robot / year (~$100 / month)** for FANUC ZDT cloud predictive maintenance subscription | **30-day free evaluation trial** for FIELD system developer sandbox and FANUC RoboGuide simulation upon distributor request. |
+| **[Universal Robots](https://www.universal-robots.com/)** | **~$18B Parent Market Cap**<br>~$2.7B Revenue *(Teradyne / TER)* | Collaborative robots | Robot automation ecosystem, UR Care & UR Connect cloud monitoring, UR Studio | Starts at **$1,200 / robot / year (~$100 / month)** for UR Care / UR Connect cloud monitoring & remote diagnostics | **Free Forever Plan**: UR Studio browser simulator and URSim offline robot simulator free forever; **30-day evaluation trial** for UR Connect. |
+| **[MiR](https://mobile-industrial-robots.com/)** | **~$18B Parent Market Cap**<br>~$2.7B Revenue *(Teradyne / TER)* | Industrial AMRs | Fleet management, MiR Fleet centralized control, MiR Insights cloud analytics | Starts at **$3,500 one-time base license** for MiR Fleet software (or MiR Insights cloud analytics at **$150 / robot / month**) | **30-day free evaluation license** for MiR Fleet server software (full features up to 100 AMRs in simulation/staging mode). |
+| **[Canvas](https://www.canvas.build/)** | **~$7.5B Parent Market Cap**<br>~$10B Revenue *(JLG / OSK)* | Construction robotics | Autonomous construction robots, drywall finishing automation, spray application | Starts at **$5,000 / month** (RaaS lease for 1200CX autonomous machine + software; or ~$0.65 / sq ft subcontracting rate) | **1-day on-site jobsite demonstration** and single-room mock-up finishing evaluation before contract execution. |
+| **[6 River Systems](https://6river.com/)** | **~$3.5B Parent Market Cap**<br>~$3.8B Revenue *(Ocado / OCDO)* | Warehouse robotics | Collaborative AMRs, Chuck AMRs, collaborative picking, dynamic zone routing | Starts at **$1,500 / robot / month** (RaaS lease covering Chuck AMR, fleet management software, and 24/7 technical support) | **30-day proof-of-concept trial** including 2 Chuck AMRs, cart mapping, WMS test integration, and picking productivity analysis. |
+| **[Locus Robotics](https://locusrobotics.com/)** | **~$2.0B Valuation**<br>~$150M ARR *(Series F Unicorn)* | Warehouse robotics | AMR orchestration, LocusONE multi-bot fulfillment, high-density dispatch | Starts at **$1,200 / robot / month** (RaaS subscription covering LocusBot AMR, LocusONE cloud orchestration, and maintenance) | **30-day pilot proof-of-concept program** (includes multi-bot simulation, facility throughput modeling, and on-site zone testing). |
+| **[Waypoint Robotics](https://waypointrobotics.com/)** | **~$2.0B Parent Valuation**<br>*(Acquired by Locus Robotics)* | AMRs | Autonomous mobile robots, omnidirectional heavy payload navigation, Dispatcher | Starts at **$2,500 / robot / month** (RaaS lease covering Vector AMR hardware, Dispatcher software, and maintenance) | **30-day on-site pilot evaluation** including 1 Vector AMR unit, virtual facility mapping, and Dispatcher software setup. |
+| **[Rocos (DroneDeploy Ground)](https://www.rocos.io/)** | **~$700M Valuation**<br>~$65M ARR *(DroneDeploy)* | Robotics cloud | Fleet operations and robot management, reality capture, waypoint navigation | Starts at **$349 / month** ($4,188 billed annually for Core Ground Robotics & Reality Capture) | **14-day free trial** with full access (up to 1 robot/drone integration and 500 image captures/maps; no credit card required). |
+| **[Viam](https://www.viam.com/)** | **~$500M Valuation**<br>~$100M+ Raised *(Series B)* | Robotics platform | Hardware abstraction, deployment, data and fleet operations, WebRTC control | **$5 / month base minimum threshold**; then $0.25 / GB / month data management, $2.50 / GB hot storage, $0.00125 / sec compute | **Free Forever Plan**: First **$5 / month of cloud usage free forever** (unlimited connected machines, local orchestration, and WebRTC streaming; no credit card required). |
+| **[Brain Corp](https://www.braincorp.com/)** | **~$250M Valuation**<br>~$30M ARR *(SoftBank Vision Fund)* | Autonomous robots | BrainOS + commercial fleet ecosystem, autonomous mobile cleaning scrubbers | Starts at **$499 / robot / month** (BrainOS commercial software & fleet telemetry license) | **30-day proof-of-concept trial** per facility site (includes pre-mapped routes, cloud analytics portal, and operator training). |
+| **[Formant](https://formant.io/)** | **~$150M Valuation**<br>~$15M ARR *(Series B)* | Robotics operations | Fleet orchestration, observability, teleoperation, WebRTC video streaming | Starts at **$250 / robot / month** (teleoperation & real-time telemetry streaming) | **Free Forever Tier** (Formant Studio): 1 user seat with unlimited connected robots for live monitoring, teleoperation, and SSH access; **30-day trial** for enterprise fleets. |
+| **[SVT Robotics](https://svtrobotics.com/)** | **~$120M Valuation**<br>~$10M ARR *(Series B)* | Industrial robotics | Robot deployment/interoperability, SOFTBOT platform, plug-and-play WMS iPaaS | Starts at **$25,000 / year** (~$2,083 / month base SOFTBOT platform connector subscription) | **30-day sandbox pilot trial** with access to AppDirectory virtual connectors, mock robot endpoints, and simulated WMS workflows. |
+| **[Foxglove](https://foxglove.dev/)** | **~$100M Valuation**<br>~$8M ARR *(Amplify Partners)* | Robotics observability | Fleet visualization, telemetry indexing, RobOps data platform, MCAP format | Starts at **$18 / user / month** ($15 / user / month billed annually for Team tier) | **Free Forever Plan**: 1 user, up to 10 GB cloud storage, unlimited local visualization, web and desktop client (no credit card required). |
+| **[Dusty Robotics](https://dustyrobotics.com/)** | **~$100M Valuation**<br>~$12M ARR *(Scale Venture)* | Construction robotics | Autonomous layout robots, FieldPrint Platform, BIM-to-field floor printing | Starts at **$3,000 / month** ($1,250 / day lease rate) for FieldPrint Platform software and robot hardware subscription | **1-day on-site layout benchmark demo** + **14-day CAD/BIM model conversion trial** on the FieldPrint web portal. |
+| **[Freedom Robotics](https://freedomrobotics.ai/)** | **~$35M Valuation**<br>~$8.6M Raised | Fleet management | Device/fleet/deployment management, remote SSH, telemetry logging | Starts at **$59 / robot / month** (Standard plan for real-time telemetry, remote SSH, and alerting) | **14-day free trial** with full platform capabilities for up to 3 robots (includes video streaming and control; no credit card required). |
+| **[InOrbit](https://www.inorbit.ai/)** | **~$30M Valuation**<br>~$4M ARR *(Series A)* | RobOps | Robot operations and orchestration, incident management, automated dispatch | Starts at **$5,000 / year** (Developer Edition flat annual fee for up to 8 robots; or ~$100 / robot / month) | **Free Forever Edition**: Unlimited robots for core fleet status, health telemetry, and incident tracking (no credit card required). |
+| **[PickNik](https://picknik.ai/)** | **Bootstrapped**<br>~$5M–$10M ARR | Robot motion | ROS / MoveIt-based robotics, MoveIt Pro commercial platform, behavior trees | Starts at **$1,000 / seat / month (~$10,000 / year)** for MoveIt Pro commercial developer license | **Free Forever Plan**: Free MoveIt Pro Academic License for universities/researchers + MoveIt OSS core; **30-day free trial** for enterprise evaluation. |
 
 
 
@@ -385,13 +400,45 @@ The most important open-source ecosystem is:
 
 ```
 
+---
 
+## 💻 Open-Source GitHub Projects
+
+*Open-source frameworks, middleware, fleet orchestrators, and RobOps toolkits. Ranked and sorted in descending order by **GitHub Star Count**:*
+
+| 📦 Repository & Project | ⭐ GitHub_Stars | 🛠️ Tech Stack / Category | 📖 Description & RobOps Capabilities |
+| :--- | :--- | :--- | :--- |
+| **[k3s-io/k3s](https://github.com/k3s-io/k3s)** | [![GitHub stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers) | Go / Kubernetes | Highly available, lightweight Kubernetes distribution designed for edge computing, IoT, and multi-robot onboard container orchestration. |
+| **[autowarefoundation/autoware](https://github.com/autowarefoundation/autoware)** | [![GitHub stars](https://img.shields.io/github/stars/autowarefoundation/autoware?style=social&color=white)](https://github.com/autowarefoundation/autoware/stargazers) | C++ / ROS 2 | The world's leading open-source autonomous driving framework; provides localization, perception, planning, and fleet-level route execution. |
+| **[open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)** | [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers) | Go | Vendor-agnostic telemetry collection pipeline for ingesting, processing, and routing robot metrics, traces, and RobOps log data to backends. |
+| **[facontidavide/PlotJuggler](https://github.com/facontidavide/PlotJuggler)** | [![GitHub stars](https://img.shields.io/github/stars/facontidavide/PlotJuggler?style=social&color=white)](https://github.com/facontidavide/PlotJuggler/stargazers) | C++ / Qt | The definitive time-series data visualization and diagnostics tool for roboticists; parses live ROS topics, rosbag, MCAP, and CSV data. |
+| **[ros2/ros2](https://github.com/ros2/ros2)** | [![GitHub stars](https://img.shields.io/github/stars/ros2/ros2?style=social&color=white)](https://github.com/ros2/ros2/stargazers) | C++ / Python | The foundational next-generation Robot Operating System; provides DDS-backed discovery, lifecycle management, and real-time distributed messaging. |
+| **[ros-navigation/navigation2](https://github.com/ros-navigation/navigation2)** | [![GitHub stars](https://img.shields.io/github/stars/ros-navigation/navigation2?style=social&color=white)](https://github.com/ros-navigation/navigation2/stargazers) | C++ / ROS 2 | Industry-standard 2D/3D navigation and autonomy stack (Nav2); enables path planning, dynamic obstacle avoidance, docking, and multi-robot fleets. |
+| **[introlab/rtabmap](https://github.com/introlab/rtabmap)** | [![GitHub stars](https://img.shields.io/github/stars/introlab/rtabmap?style=social&color=white)](https://github.com/introlab/rtabmap/stargazers) | C++ | Real-Time Appearance-Based 3D SLAM engine with visual loop-closure detection for large-scale multi-robot spatial mapping. |
+| **[eclipse-zenoh/zenoh](https://github.com/eclipse-zenoh/zenoh)** | [![GitHub stars](https://img.shields.io/github/stars/eclipse-zenoh/zenoh?style=social&color=white)](https://github.com/eclipse-zenoh/zenoh/stargazers) | Rust | Zero-overhead pub/sub/query protocol unifying data in motion and data at rest; bridges ROS 2 DDS to wide-area cloud and robot networks. |
+| **[eProsima/Fast-DDS](https://github.com/eProsima/Fast-DDS)** | [![GitHub stars](https://img.shields.io/github/stars/eProsima/Fast-DDS?style=social&color=white)](https://github.com/eProsima/Fast-DDS/stargazers) | C++ | Enterprise-grade OMG Data Distribution Service (DDS) middleware providing low-latency, deterministic communication across robot fleets. |
+| **[SteveMacenski/slam_toolbox](https://github.com/SteveMacenski/slam_toolbox)** | [![GitHub stars](https://img.shields.io/github/stars/SteveMacenski/slam_toolbox?style=social&color=white)](https://github.com/SteveMacenski/slam_toolbox/stargazers) | C++ | 2D SLAM and lifelong mapping package for ROS 2; supports merging, localization, and dynamic map updates across industrial AMR fleets. |
+| **[moveit/moveit2](https://github.com/moveit/moveit2)** | [![GitHub stars](https://img.shields.io/github/stars/moveit/moveit2?style=social&color=white)](https://github.com/moveit/moveit2/stargazers) | C++ / ROS 2 | The robotics manipulation and motion planning framework for ROS 2; manages kinematics, collision checking, trajectory execution, and control. |
+| **[gazebosim/gz-sim](https://github.com/gazebosim/gz-sim)** | [![GitHub stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers) | C++ | Advanced open-source robotics simulator (formerly Ignition Gazebo) for multi-robot sensor testing, world simulation, and physics modeling. |
+| **[eclipse-cyclonedds/cyclonedds](https://github.com/eclipse-cyclonedds/cyclonedds)** | [![GitHub stars](https://img.shields.io/github/stars/eclipse-cyclonedds/cyclonedds?style=social&color=white)](https://github.com/eclipse-cyclonedds/cyclonedds/stargazers) | C | Lightweight, high-performance Eclipse OMG DDS implementation widely deployed in production ROS 2 autonomous robot fleets. |
+| **[RobotWebTools/rosbridge_suite](https://github.com/RobotWebTools/rosbridge_suite)** | [![GitHub stars](https://img.shields.io/github/stars/RobotWebTools/rosbridge_suite?style=social&color=white)](https://github.com/RobotWebTools/rosbridge_suite/stargazers) | Python / ROS | JSON WebSocket interface for ROS/ROS 2; connects web-based fleet monitoring consoles, remote teleoperation UIs, and external cloud APIs. |
+| **[mendersoftware/mender](https://github.com/mendersoftware/mender)** | [![GitHub stars](https://img.shields.io/github/stars/mendersoftware/mender?style=social&color=white)](https://github.com/mendersoftware/mender/stargazers) | C++ / Go | Secure, robust over-the-air (OTA) dual-rootfs software and firmware updater for connected embedded robot fleets. |
+| **[foxglove/mcap](https://github.com/foxglove/mcap)** | [![GitHub stars](https://img.shields.io/github/stars/foxglove/mcap?style=social&color=white)](https://github.com/foxglove/mcap/stargazers) | Rust / C++ / Go | High-performance, serialization-agnostic container file format for robotics telemetry, sensor recordings, and multi-robot log ingestion. |
+| **[ros2/rviz](https://github.com/ros2/rviz)** | [![GitHub stars](https://img.shields.io/github/stars/ros2/rviz?style=social&color=white)](https://github.com/ros2/rviz/stargazers) | C++ / Qt | 3D robot visualization framework for ROS 2; visualizes sensor pointclouds, transform coordinate frames, costmaps, and robot poses. |
+| **[ros2/rosbag2](https://github.com/ros2/rosbag2)** | [![GitHub stars](https://img.shields.io/github/stars/ros2/rosbag2?style=social&color=white)](https://github.com/ros2/rosbag2/stargazers) | C++ / ROS 2 | Official ROS 2 logging and replay system supporting SQLite3 and MCAP storage plugins for high-bandwidth fleet telemetry capture. |
+| **[open-rmf/rmf](https://github.com/open-rmf/rmf)** | [![GitHub stars](https://img.shields.io/github/stars/open-rmf/rmf?style=social&color=white)](https://github.com/open-rmf/rmf/stargazers) | C++ / Python | The primary open-source framework for multi-fleet robot management, space-time traffic deconfliction, task dispatch, and building lift/door integration. |
+| **[osrf/subt](https://github.com/osrf/subt)** | [![GitHub stars](https://img.shields.io/github/stars/osrf/subt?style=social&color=white)](https://github.com/osrf/subt/stargazers) | C++ / ROS | DARPA Subterranean Challenge simulation and multi-robot coordination environment for complex multi-agent search, rescue, and tunnel navigation. |
+| **[open-rmf/free_fleet](https://github.com/open-rmf/free_fleet)** | [![GitHub stars](https://img.shields.io/github/stars/open-rmf/free_fleet?style=social&color=white)](https://github.com/open-rmf/free_fleet/stargazers) | C++ / Python | Open-RMF fleet adapter and client library bridging ROS 1/2 Nav2 robots to Open-RMF multi-fleet dispatchers over Zenoh/TCP. |
+| **[micro-ROS/micro-ROS-Agent](https://github.com/micro-ROS/micro-ROS-Agent)** | [![GitHub stars](https://img.shields.io/github/stars/micro-ROS/micro-ROS-Agent?style=social&color=white)](https://github.com/micro-ROS/micro-ROS-Agent/stargazers) | C++ | Micro-ROS agent connecting resource-constrained embedded microcontrollers (MCUs) on mobile robots directly into the ROS 2 DDS ecosystem. |
+| **[viamrobotics/rdk](https://github.com/viamrobotics/rdk)** | [![GitHub stars](https://img.shields.io/github/stars/viamrobotics/rdk?style=social&color=white)](https://github.com/viamrobotics/rdk/stargazers) | Go | Viam's Robot Development Kit (RDK); provides open-source hardware abstraction, gRPC/WebRTC APIs, and sensor integration services. |
+| **[foxglove/studio](https://github.com/foxglove/studio)** | [![GitHub stars](https://img.shields.io/github/stars/foxglove/studio?style=social&color=white)](https://github.com/foxglove/studio/stargazers) | TypeScript | Robotics visualization and debugging application for live robot telemetry, 3D scenes, camera streams, and MCAP recording replay. |
+| **[open-rmf/rmf_traffic](https://github.com/open-rmf/rmf_traffic)** | [![GitHub stars](https://img.shields.io/github/stars/open-rmf/rmf_traffic?style=social&color=white)](https://github.com/open-rmf/rmf_traffic/stargazers) | C++ | Mathematical space-time trajectory scheduling and multi-agent conflict negotiation engine powering Open-RMF traffic management. |
+| **[nvidia-isaac/isaac_mission_control](https://github.com/nvidia-isaac/isaac_mission_control)** | [![GitHub stars](https://img.shields.io/github/stars/nvidia-isaac/isaac_mission_control?style=social&color=white)](https://github.com/nvidia-isaac/isaac_mission_control/stargazers) | Python | Lightweight VDA 5050 fleet manager and mission dispatch service for coordinating Isaac ROS autonomous mobile robots. |
+| **[Toyota/FREEDOM](https://github.com/Toyota/FREEDOM)** | [![GitHub stars](https://img.shields.io/github/stars/Toyota/FREEDOM?style=social&color=white)](https://github.com/Toyota/FREEDOM/stargazers) | Python | Toyota's open-source multi-robot and factory infrastructure orchestration platform with unified robot APIs and microservices. |
 
 ---
 
-
-
-# Full Fleet Management / Multi-Robot Orchestration
+# 🚀 Full Fleet Management & Multi-Robot Orchestration
 
 
 
@@ -6325,7 +6372,7 @@ The strongest architecture is:
 
 
 
-# Contributing
+# 🤝 Contributing
 
 
 
@@ -6381,7 +6428,7 @@ Useful contributions include:
 
 
 
-# Disclaimer
+# ⚠️ Disclaimer
 
 
 
@@ -6532,3 +6579,16 @@ Particular care should be taken with:
 
 
 **This stack provides the foundation for a genuinely self-hosted Robotics Fleet Management / RobOps platform rather than merely a collection of individual robot-control tools.**
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Robotics-Fleet-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Robotics-Fleet-Management&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Maintained with ❤️ for Robotics Engineers, RobOps Specialists, Fleet Operators &amp; Autonomous Systems Builders.</b>
+</p>
+
